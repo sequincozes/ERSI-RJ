@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MQTT and CoAP</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="mqtt">MQTT (Publish)</string>
+    <string name="coap">CoAP (Request)</string>
+
+</resources>

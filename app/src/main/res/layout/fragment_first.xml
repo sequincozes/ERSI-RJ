@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mqtt_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Endereço do Broker MQTT."
+        android:text="broker.hivemq.com"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/mqtt_msg_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Exemplo de mensagem para envio."
+        android:text="Exemplo de mensagem para publicação no MQTT."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_mqtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mqtt" />
+
+    <EditText
+        android:id="@+id/coap_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Endereço do servidor CoAP."
+        android:text="coap://coap.me/test"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_coap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coap" />
+
+    <TextView
+        android:id="@+id/textview_result_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Resultado:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A resposta da requisiço aparecera aqui." />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
